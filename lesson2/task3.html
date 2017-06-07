@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>form</title>
+</head>
+<body>
+<form name="name">
+   <p> <label for="name">Name</label><br/>
+    <input type="text" id="name" name="Name"/>
+</form>
+<form name="email">
+    <p><label for="email">E-Mail</label><br/>
+    <input type="email" id="email" name="email"/>
+</form>
+<form name="sex">
+    <p>Sex<br/>
+        <input type="radio" name="sex" value="male"/>Male
+        <input type="radio" name="sex" value="female"/>Female
+    </p>
+</form>
+<form name="status">
+    <p>Current status<br/>
+        <input type="checkbox" name="Loshara"/>Loshara<br/>
+        <input type="checkbox" name="Molodec"/>Molodec<br>
+        <input type="checkbox" name="Bog"/>Bog
+    </p>
+</form>
+    <p>Month and Year of Birth<br/>
+        <select name="month" size="1">
+            <option value="jan">Январь</option>
+            <option value="feb">Февраль</option>
+            <option value="mar">Март</option>
+            <option value="apr">Апрель</option>
+        </select>
+        <select name="year" size="1">
+            <option value="1989">1989</option>
+            <option value="1990">1990</option>
+        </select>
+    </p>
+<p>Skills<br/>
+<select name="skills" size="8">
+    <optgroup label="Tech skills">
+        <option value="html">HTML</option>
+        <option value="css">CSS</option>
+        <option value="js">JacaScript</option>
+    </optgroup>
+    <optgroup label="Soft skills">
+        <option name="man">Management</option>
+        <option name="proact">Proactivity</option>
+        <option name="tw">Teamwork</option>
+    </optgroup>
+</select>
+</p>
+<form name="file" id="comm">
+    <p>Photo<br/>
+    <input type="file" name="photo" value="ololo"/>
+    </p>
+</form>
+<form name="comm">
+    <p>Comments<br/>
+        <textarea name="comm" form="comm">
+        </textarea>
+    </p>
+    <p><input type="submit" value="Save"/></p>
+</form>
+</body>
+</html>
