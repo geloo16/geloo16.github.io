@@ -1,0 +1,15 @@
+body {
+    max-width: 700px;
+}
+h1 {
+    text-align: right; color: orange; font-size: 30px; font-weight: bold;
+}
+em {
+    background-color: green; color: white; font-weight: bold;
+}
+p {
+    font-weight: normal; text-align: left; font-size: 18px;
+}
+p:first-letter {
+    font-size: 30px; color: red; font-weight: bold;
+}
