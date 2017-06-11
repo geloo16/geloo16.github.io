@@ -1,0 +1,49 @@
+body {
+    text-align: center; font-weight: bold;
+}
+span {
+    font-size: 30px;
+}
+input[id="red"] + label {
+    color: red;
+}
+input[id="red"]:checked + label {
+    color: #cccccc;
+}
+input[id="green"] + label {
+    color: green;
+}
+input[id="green"]:checked + label {
+    color: #cccccc;
+}
+input[id="blue"] + label {
+    color: blue;
+}
+input[id="blue"]:checked + label {
+    color: #cccccc;
+}
+label{
+    text-decoration: underline; font-size: 20px;
+}
+input {
+    visibility: hidden;
+}
+.red1 {
+    background-color: red; color: white;
+}
+.green {
+    background-color: green; color: white;
+}
+.blue {
+    background-color: blue; color: white;
+}
+input[id="red"]:checked ~ span[class="red1"] {
+    display: none;
+}
+input[id="green"]:checked ~ .green {
+    display: none;
+}
+input[id="blue"]:checked ~ .blue {
+    display: none;
+}
+
